@@ -1,8 +1,8 @@
 from machine import Pin
 import time
 
-led = Pin(25, Pin.OUT)   # Pico LED
-#led = Pin("LED", Pin.OUT) # Pico W LED
+#led = Pin(25, Pin.OUT)   # Pico LED
+led = Pin("LED", Pin.OUT) # Pico W LED
 
 try:
     while True:
