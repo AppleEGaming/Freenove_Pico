@@ -1,7 +1,7 @@
 from machine import Pin
 import time
 
-led = Pin(15, Pin.OUT)                   
+led = Pin(16, Pin.OUT)                   
 button = Pin(13, Pin.IN, Pin.PULL_UP)    #Create button object from Pin13 , Set GP13 to input
 
 def reverseGPIO():
